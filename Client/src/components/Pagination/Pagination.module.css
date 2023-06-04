@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+}
+
+a {
+    transition: transform 0.2s ease-in-out;
+}
+
+a:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.selected {
+    border: solid thin red;
+    padding: 1.75px 2.75px;
+
+}

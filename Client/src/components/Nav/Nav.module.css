@@ -1,0 +1,62 @@
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    background-color: #FF0000;
+    padding: 10px;
+    border: solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 4vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  .allbtn {
+    border: solid;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 10px 20px;
+  }
+
+  .allbtn:hover {
+    cursor: pointer;
+    background-color:rgb(212, 214, 216);
+  }
+  
+  
+  .img {
+    width: 70px;
+    border-radius: 1.5rem;
+    margin-left: 2%;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .logo-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+  }
+
+  @media (max-width: 767px) and (min-width: 300px) {
+    .container {
+        margin: 0;
+
+    }
+
+    .allbtn {
+      height: 50px;
+      padding: 5px 10px;
+    }
+}
+
+
+  
+  
+  
+  
